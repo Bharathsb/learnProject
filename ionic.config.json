@@ -1,0 +1,11 @@
+{
+  "name": "test-project",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "proxies": [
+    {}
+  ],
+  "app_id": ""
+}

@@ -1,0 +1,28 @@
+
+<ion-content class="landing" padding>
+
+<div align="text-left">
+	<img width="100px" src="assets/img/logo_white.png"/>
+</div>
+
+<!-- <ion-grid margin-top-100> -->
+		  
+		<ion-row class="margin-top-100">
+			<p class="font-rem-big">
+				Tu agenda y tus pacientes
+				<b>SIEMPRE A TU ALCANCE</b></p>
+		</ion-row>
+
+	  		  
+	
+</ion-content>
+
+<ion-footer text-center padding>
+
+	  <button ion-button margin-right color="secondary" (click)="gotoLogin();"> {{ 'Login' | translate }}  
+      </button>
+
+      <button ion-button margin-left (click)="gotoRegister();"> {{ 'Register' | translate }} 
+      </button>
+	
+</ion-footer>
